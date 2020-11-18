@@ -1,10 +1,9 @@
 from flask import Flask, request, jsonify, abort
-from dotenv import load_dotenv
-load_dotenv()
+
 
 
 app = Flask(__name__)
-import psycopg2
+
 from database import cursor, connection
 
 
