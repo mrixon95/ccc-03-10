@@ -2,7 +2,7 @@
 
 from database import cursor, connection
 from flask import Blueprint, request, jsonify, abort
-books = Blueprint("books", __name__, url_prefix="/garret")
+books = Blueprint("books", __name__, url_prefix="/books")
 
 
 
