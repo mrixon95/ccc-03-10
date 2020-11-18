@@ -1,3 +1,6 @@
+# only concerned with connecting to the database
+
+
 import psycopg2
 
 import os
