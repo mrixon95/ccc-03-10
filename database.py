@@ -5,7 +5,7 @@ import os
 connection = psycopg2.connect(
     database="library_api",
     user="postgres",
-    password="QK_cSqG,q8uUFz-F",
+    password= os.getenv("DB_PASSWORD"),
     host="52.91.70.92",
     port="5432"
 )
